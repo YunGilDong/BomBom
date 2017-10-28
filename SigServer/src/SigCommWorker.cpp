@@ -25,7 +25,7 @@ __fastcall SigCommWorker::SigCommWorker(TcpSocket *csock) : TThread(True)
 {
     FreeOnTerminate=true;
 	running   = true;
-    //a
+    //aa
 	cSock     = csock; 	// 생성시에 cSock 연결
 	connDevID= 0;
     runningID = 0;
