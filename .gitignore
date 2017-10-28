@@ -10,6 +10,19 @@ SigServer/src/Common/__history
 SigServer/src/sgPacket/__history
 SigServer/src/sgPacket/__recovery
 SigServer/src/Win32
+kAPU/bin
+kAPU/KOAStudioSA
+kAPU/src/Win32
+kAPU/src/__history
+kAPU/src/__recovery
+kAPU/src/Win32
+StockTradeCL/src/__history
+StockTradeCL/src/__recovery
+StockTradeCL/src/CPstock/__history
+StockTradeCL/src/GenLib/__history
+StockTradeCL/src/Win32/Debug
+StockTradeCL/src/inc/__history
+StockTradeCL/bin
 
 ### Histor ###
 #*.~*~
@@ -48,7 +61,6 @@ MtPacket*.*
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe

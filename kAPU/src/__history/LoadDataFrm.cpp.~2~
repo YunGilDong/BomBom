@@ -1,0 +1,19 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "LoadDataFrm.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TLoadDataF *LoadDataF;
+
+st_LoginInfo sLoginInfo;
+//---------------------------------------------------------------------------
+__fastcall TLoadDataF::TLoadDataF(TComponent* Owner)
+	: TForm(Owner)
+{
+
+}
+//---------------------------------------------------------------------------

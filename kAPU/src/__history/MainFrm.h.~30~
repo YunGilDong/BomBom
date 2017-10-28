@@ -1,0 +1,72 @@
+//---------------------------------------------------------------------------
+
+#ifndef MainFrmH
+#define MainFrmH
+//---------------------------------------------------------------------------
+#include "mst.h"
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include "KHOpenAPILib_OCX.h"
+#include <Vcl.OleCtrls.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.WinXCtrls.hpp>
+#include <Vcl.ComCtrls.hpp>
+//---------------------------------------------------------------------------
+class TMainF : public TForm
+{
+__published:	// IDE-managed Components
+	TKHOpenAPI *KHOpenAPI;
+	TMemo *mmoUserInfo;
+	TButton *Button3;
+	TButton *Button4;
+	TButton *btnReqAc;
+	TStatusBar *statusBar;
+	TMemo *mmoAccount;
+	TGroupBox *GroupBox1;
+	TEdit *edOrder1;
+	TEdit *edOrder3;
+	TEdit *edOrder4;
+	TEdit *edOrder5;
+	TEdit *Edit6;
+	TLabel *laOrder1;
+	TLabel *laOrder2;
+	TLabel *laOrder3;
+	TLabel *laOrder4;
+	TLabel *laOrder5;
+	TLabel *laOrder6;
+	TButton *Button1;
+	TComboBox *cbOrderType;
+	TMemo *mmoOrderLog;
+	TMemo *mmoCheJanLog;
+	void __fastcall Button3Click(TObject *Sender);
+	void __fastcall KHOpenAPIReceiveTrData(TObject *Sender, BSTR sScrNo, BSTR sRQName,
+          BSTR sTrCode, BSTR sRecordName, BSTR sPrevNext, long nDataLength, BSTR sErrorCode,
+          BSTR sMessage, BSTR sSplmMsg);
+	void __fastcall Button4Click(TObject *Sender);
+	void __fastcall FormShow(TObject *Sender);
+	void __fastcall KHOpenAPIEventConnect(TObject *Sender, long nErrCode);
+	void __fastcall btnReqAcClick(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall edOrder1KeyPress(TObject *Sender, System::WideChar &Key);
+	void __fastcall KHOpenAPIReceiveChejanData(TObject *Sender, BSTR sGubun, long nItemCnt,
+          BSTR sFIdList);
+private:	// User declarations
+	void __fastcall LoginPopUp(void);
+	void __fastcall RequesMyAccouontInfo(void);
+	void __fastcall GetMyAccouontInfo(void);
+	void __fastcall GetUserInformation(void);
+	void __fastcall Start_Order(void);
+	void __fastcall SendOrderVictory(void);
+	void __fastcall OrderLogAdd(long orderType, BSTR Code,long Quantity,long Price);
+	st_InputValue SetValue;
+	st_InputValue GetValue;
+public:		// User declarations
+	__fastcall TMainF(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TMainF *MainF;
+//---------------------------------------------------------------------------
+#endif

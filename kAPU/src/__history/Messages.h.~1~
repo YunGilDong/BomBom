@@ -1,0 +1,10 @@
+//---------------------------------------------------------------------------
+#ifndef MessagesH
+#define MessagesH
+//---------------------------------------------------------------------------
+#include <Winapi.Windows.hpp>
+//---------------------------------------------------------------------------
+static const unsigned int WM_SETACODE = ::RegisterWindowMessage(_T("__ANCHORCHART2_SETACODE__"));
+static const unsigned int WM_TRADESIGNAL = ::RegisterWindowMessage(_T("__ANCHORCHART2_TRADESIGNAL__"));
+//---------------------------------------------------------------------------
+#endif

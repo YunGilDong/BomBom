@@ -1,0 +1,107 @@
+#ifndef _MST_H_
+#define _MST_H_
+
+//#define ID_XT1_PACKET_REQ       13001       /* XT1_PACKET 데이터 요청       */
+
+//--------------------------------------------------------------------------
+// Account Info
+//--------------------------------------------------------------------------
+const BSTR pMyAccNO = SysAllocString(L"6000163741");
+const BSTR pMyAccNO_MO = SysAllocString(L"8095376111");
+//--------------------------------------------------------------------------
+// LoginInfo
+//--------------------------------------------------------------------------
+const BSTR pUSER_ID =SysAllocString(L"USER_ID");
+const BSTR pUSER_NAME =SysAllocString(L"USER_NAME");
+const BSTR pACCOUNT_CNT =SysAllocString(L"ACCOUNT_CNT");
+const BSTR pACCNO =SysAllocString(L"ACCNO");
+const BSTR pKEY_BSECGB=SysAllocString(L"KEY_BSECGB");
+const BSTR pFIREW_SECGB =SysAllocString(L"FIREW_SECGB");
+//--------------------------------------------------------------------------
+struct st_LoginInfo
+{
+	WideString rUserID;
+	WideString rAccountCnT;
+	WideString rAccno;
+	WideString rUserName;
+	WideString rKeyBsecgb;
+	WideString rFirewSecgv;
+};
+
+//--------------------------------------------------------------------------
+// SetInputValue
+//--------------------------------------------------------------------------
+const BSTR pSetCode = SysAllocString(L"종목코드");
+const BSTR pSetAccno = SysAllocString(L"계좌번호");
+const BSTR pPassWord = SysAllocString(L"비밀번호");
+const BSTR pStockOrder = SysAllocString(L"주식주문");
+const BSTR pSangPe = SysAllocString(L"상장폐지조회구분");
+const BSTR pPWinputType = SysAllocString(L"비밀번호입력매체구분");
+const BSTR pReqAccoNO = SysAllocString(L"계좌평가현황요청");
+
+//===============================================================
+// 주식기본정보
+//===============================================================
+const BSTR pRQName_SB_Info =SysAllocString(L"주식기본정보");
+const BSTR pJCode =SysAllocString(L"종목코드");
+const BSTR pJName =SysAllocString(L"종목명");
+const BSTR pCurPrice =SysAllocString(L"현재가");
+const BSTR pChangeRate =SysAllocString(L"등락율");
+const BSTR pVolume =SysAllocString(L"거래량");
+const BSTR pStartPrice =SysAllocString(L"시가");
+const BSTR pHighPrice =SysAllocString(L"고가");
+const BSTR pLowPrice =SysAllocString(L"저가");
+//===============================================================
+
+//===============================================================
+// 계좌평가정보
+//===============================================================
+const BSTR pDeposit     =SysAllocString(L"예수금");      // 예수금
+const BSTR pDeposit_2d  =SysAllocString(L"D+2추정예수");   // D+2추정예수금
+const BSTR pToPurch     =SysAllocString(L"총매입금액");      // 총매입금액
+const BSTR pOneDayRate  =SysAllocString(L"당일손익율");   // 당일손익율
+const BSTR pMoaMoaRate  =SysAllocString(L"누적손익율");   // 누적손익율
+const BSTR pMoaMoaPrice =SysAllocString(L"누적투자손익");  // 누적투자손익
+//===============================================================
+const BSTR pTrCode_OPW00004 = SysAllocString(L"OPW00004");
+const BSTR pTrCode_OPT10001 = SysAllocString(L"OPT10001");
+
+const BSTR pScreenNo_0101 = SysAllocString(L"0101");
+const BSTR pScreenNo_6001 = SysAllocString(L"6001");
+
+
+//--------------------------------------------------------------------------
+struct st_InputValue
+{
+	WideString jCode;
+	WideString cAccno;
+};
+
+//--------------------------------------------------------------------------
+struct st_jBasic_Info
+{
+	WideString rJCode;
+	WideString rJName;
+	WideString rCurPrice;
+	WideString rChangeRate;
+	WideString rVolume;
+	WideString rStartPrice;
+	WideString rHighPrice;
+	WideString rLowPrice;
+};
+
+
+//--------------------------------------------------------------------------
+// 계좌평가
+//--------------------------------------------------------------------------
+struct st_MyAccount_Info
+{
+	WideString rDeposit;      // 예수금
+	WideString rDeposit_2d;   // D+2추정예수금
+	WideString rToPurch;      // 총매입금액
+	WideString rOneDayRate;   // 당일손익율
+	WideString rMoaMoaRate;   // 누적손익율
+	WideString rMoaMoaPrice;  // 누적투자손익
+};
+#endif
+
