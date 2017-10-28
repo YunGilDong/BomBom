@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.911,E:\Projects\SignalSvrer\src\SigCommWorker.h=E:\Projects\SignalSvrer\src\IDevCommWorker.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.733,=E:\Projects\SignalSvrer\src\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.352,E:\Projects\SignalSvrer\src\MainFrm.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.814,E:\Projects\SignalSvrer\src\SigComm.cpp=E:\Projects\SignalSvrer\src\IDevComm.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.963,=E:\Projects\SignalSvrer\src\sgPacket\MtPacket.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.486,E:\Projects\SignalSvrer\lib\wzlib.lib=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.352,E:\Projects\SignalSvrer\src\MainFrm.h=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.352,E:\Projects\SignalSvrer\src\MainFrm.cpp=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.705,=E:\Projects\SignalSvrer\lib\sznet.lib</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.170,E:\Projects\SignalSvrer\lib\sznet.lib=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.109,=E:\Projects\SignalSvrer\src\IDevComm.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.128,E:\Projects\SignalSvrer\src\SigCommSvr.h=E:\Projects\SignalSvrer\src\Unit1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.117,=E:\Projects\SignalSvrer\src\IDevComm.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.128,E:\Projects\SignalSvrer\src\SigCommSvr.cpp=E:\Projects\SignalSvrer\src\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.301,=E:\Projects\SignalSvrer\lib\sznet.lib</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.352,E:\Projects\SignalSvrer\src\SigCommServer.cpp=E:\Projects\SignalSvrer\src\SigCommSvr.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.737,=E:\Projects\SignalSvrer\lib\wzlib.lib</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.011,=E:\Projects\SignalSvrer\src\sgPacket\MtPacket.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.667,E:\Projects\SignalSvrer\src\Project1PCH1.h=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.352,E:\Projects\SignalSvrer\src\SigCommServer.h=E:\Projects\SignalSvrer\src\SigCommSvr.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.806,E:\Projects\SignalSvrer\src\SigComm.h=E:\Projects\SignalSvrer\src\IDevComm.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.850,E:\Projects\SignalSvrer\src\sgPacket\SgPacket.cpp=E:\Projects\SignalSvrer\src\sgPacket\MtPacket.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.589,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.527,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.745,E:\Projects\SignalSvrer\src\SigSvrPCH1.h=E:\Projects\SignalSvrer\src\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.365,=E:\Projects\SignalSvrer\src\Common\Mios.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.330,=E:\Projects\SignalSvrer\lib\wzlib.lib</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.326,E:\Projects\SignalSvrer\src\sgPacket\SgPacket.h=E:\Projects\SignalSvrer\src\sgPacket\MtPacket.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.760,E:\Projects\SignalSvrer\src\SigSvr.cbproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.911,E:\Projects\SignalSvrer\src\SigCommWorker.cpp=E:\Projects\SignalSvrer\src\IDevCommWorker.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.742,=E:\Projects\SignalSvrer\src\IDevCommWorker.cpp</Transaction>
+    <Transaction>2017-10-28 17:48:49.478,E:\Projects\SignalSvrer\src\SigServerPCH1.h=E:\Projects\SignalSvrer\src\SigSvrPCH1.h</Transaction>
+    <Transaction>2017-10-28 17:48:49.499,E:\Projects\SignalSvrer\src\SigServer.cbproj=E:\Projects\SignalSvrer\src\SigSvr.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
