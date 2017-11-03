@@ -24,6 +24,10 @@ __fastcall TMainF::TMainF(TComponent* Owner)
 	sysTime.DecodeDate( &sysYear, &sysMon, &sysDay );
 	sysTime.DecodeTime( &sysHour, &sysMin, &sysSec, &sysMSec);
 
+	길동아 안녕 나는 TEST 브랜치야
+	개발개발개발
+
+
 }
 
 //---------------------------------------------------------------------------
