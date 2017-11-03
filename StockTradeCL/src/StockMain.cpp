@@ -22,13 +22,15 @@ AnsiString LogDir;
 __fastcall TStockMainF::TStockMainF(TComponent* Owner)
 	: TForm(Owner)
 {
+	char logPath[256];
 	// Set Log directory
 	LogDir = ExtractFilePath(Application->ExeName);
-	LogDir.printf("%s\\log", LogDir.c_str());
+	//LogDir.printf("%s\\log", LogDir.c_str());
+	sprintf(logPath,"%s\\log", LogDir.c_str());
 //	SetCurrentDirectory(LogDir.c_str());
 
-	//Log = CLSlog("STOCKCL", LogDir.c_str());
-	Log = CLSlog("STOCKCL", "D:\\work\\Builder\\Berlin\\01.Study PJT_\\bin\\log");
+	Log = CLSlog("STOCKCL", logPath);
+	//Log = CLSlog("STOCKCL", "D:\\work\\Builder\\Berlin\\01.Study PJT_\\bin\\log");
 	Log.Write("Process start");
 
 	mTcpSt = false;
