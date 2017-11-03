@@ -28,6 +28,7 @@ __fastcall TMainF::TMainF(TComponent* Owner)
 //	개발개발개발
 
 // 풀 리퀘스트 테스트를 하려고 해~~~
+// 푸우우우울
 
 }
 
